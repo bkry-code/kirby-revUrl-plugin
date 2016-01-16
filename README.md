@@ -1,6 +1,6 @@
 # Kirby fileURL plugin
 
-A plugin for [Kirby](https://github.com/getkirby/starterkit) that adds a 12 character MD5 hash to any file URL in the `content` directory. The hash is generated from the file’s `$image->modified()` value. So if the file is modified, the hash changes and the browser will download the changed file instead of loading it from cache.
+A plugin for [Kirby](https://github.com/getkirby/starterkit) that adds a 12 character MD5 hash to any file URL in the `content` directory for cache-busting purpose. The hash is generated from the file’s `$image->modified()` value. So if the file is modified, the hash changes and the browser will download the changed file instead of loading it from cache.
 
 This plugin does not modify the filename itself. Instead, it just adds the hash to the URL. The corresponding rewrite rules make sure that the URL still works.
 
