@@ -29,9 +29,7 @@ fileURL($file);
 
 #### Examples:
 ```html
-<?php $image = $page->file('myimage.jpg'); ?>
-<img src="<?php echo fileURL($image) ?>" alt="…">
+<img src="<?php echo fileURL($page->file('myimage.jpg')) ?>" alt="…">
 
-<?php $file = $page->file('myfile.pdf'); ?>
-<a href="<?php echo fileURL($file) ?>">…</a>
+<a href="<?php echo fileURL($page->file('myfile.pdf')) ?>">…</a>
 ```
