@@ -8,8 +8,8 @@ This plugin does not modify the filename itself. Instead, it just adds the hash 
 ```
 site/
   plugins/
-    fileurl/
-      fileurl.php
+    fileUrl/
+      fileUrl.php
 ```
 
 To make this plugin work, you must add the following lines to your `.htaccess` file, after the RewriteBase definition and before Kirby’s own rewrite rules.
