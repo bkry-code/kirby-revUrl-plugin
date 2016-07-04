@@ -29,9 +29,7 @@ Note: The plugin is intended for cache-busting with far-future `Expires` headers
 revURL($file);
 ```
 
-#### Examples:
+#### Example:
 ```html
 <img src="<?php echo revURL($page->file('myimage.jpg')) ?>" alt="…">
-
-<a href="<?php echo revURL($page->file('myfile.pdf')) ?>">…</a>
 ```
