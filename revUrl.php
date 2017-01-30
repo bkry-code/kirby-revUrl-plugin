@@ -9,6 +9,6 @@ function revURL($file) {
     return substr_replace($url, '-'. $hash, $pos - 1, 0);
   }  
   else {
-    return $site->errorPage()->url();
+    return kirby()->site()->errorPage()->url();
   }
 }
