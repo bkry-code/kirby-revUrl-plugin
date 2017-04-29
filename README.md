@@ -18,8 +18,8 @@ To make this plugin work, you must add the following lines (with the correspondi
 
 ```apacheConf
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(content\/.*)-([a-f0-9]{12})\.(jpg|gif|png|svg)$ $1.$3 [L]
-RewriteRule ^(thumbs\/.*)-([a-f0-9]{12})\.(jpg|png)$ $1.$3 [L]
+RewriteRule ^(content\/.*)-[a-f0-9]{12}\.(jpg|gif|png|svg)$ $1.$2 [L]
+RewriteRule ^(thumbs\/.*)-[a-f0-9]{12}\.(jpg|png)$ $1.$2 [L]
 ```
 
 Note: The plugin is intended for cache-busting with far-future `Expires` headers, so remember to also add the corresponding headers in your Apache / Nginx configuration.
