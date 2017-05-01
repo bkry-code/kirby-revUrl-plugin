@@ -26,10 +26,10 @@ Note: The plugin is intended for cache-busting with far-future `Expires` headers
 
 ## Usage
 ```php
-revURL($file);
+revUrl($file);
 ```
 
 #### Example:
 ```html
-<img src="<?php echo revURL($page->file('myimage.jpg')) ?>" alt="…">
+<img src="<?php echo revUrl($page->file('myimage.jpg')) ?>" alt="…">
 ```

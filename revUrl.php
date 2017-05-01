@@ -1,6 +1,6 @@
 <?php 
 
-function revURL($file) {
+function revUrl($file) {
   if ($file) {
     $url = $file->url();
     $hash = substr(md5($file->modified()), 0, 12);
