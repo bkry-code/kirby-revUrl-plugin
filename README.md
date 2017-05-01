@@ -1,4 +1,4 @@
-# Kirby revURL plugin
+# Kirby revUrl plugin
 
 A file revisioning plugin for [Kirby](https://github.com/getkirby/starterkit) that adds a 12 character MD5 hash to any file URL in the `content` or `thumbs` directory. The hash is generated from the file’s `$file->modified()` value. So if the file is modified, the hash changes and the browser will download the changed file instead of loading it from cache.
 
