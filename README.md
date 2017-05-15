@@ -25,7 +25,7 @@ Note: The plugin is intended for cache-busting with far-future `Expires` headers
 
 ## Usage
 ```php
-$file->revUrl());
+$file->revUrl();
 ```
 
 #### Example:
