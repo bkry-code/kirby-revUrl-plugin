@@ -3,6 +3,6 @@
   "description": "File revisioning URLs for the content directory in Kirby CMS",
   "author": "Sebastian Eberlein",
   "license": "MIT",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "kirby-plugin"
 }
